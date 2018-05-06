@@ -160,6 +160,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * Third Party Providers
+         */
+        Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,
+
     ],
 
     /*
